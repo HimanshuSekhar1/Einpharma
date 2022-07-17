@@ -1,0 +1,286 @@
+html {
+    font-size: 62.5%;
+    
+}
+
+/*media Query*/
+@media (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+/*Header*/
+.home {
+    position: fixed;
+    width: 20rem;
+    height: 0rem;
+    right: 0rem;
+    top: 35rem;
+    
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 6rem;
+    line-height: 0rem;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    transform: rotate(90deg);
+}
+
+.pagelink1 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 13.2rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 20rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.pagelink2 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 37.9rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+
+}
+
+.pagelink3 {  
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 58.4rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.pagelink4 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 75.9rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.rectangle1 {
+    position: fixed;
+    width: 107rem;
+    height: 13.9rem;
+    left: 0rem;
+    top: 0rem;
+    background: #DFE3FF;
+    border-radius: 0rem 0rem 5rem 0rem;
+    position: fixed;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 22.8rem;
+    height: 79rem;
+    right: 0rem;
+    top: 0rem;
+    position: fixed;
+    background: #DFE3FF;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 107rem;
+    left: 0rem;
+    height: 12.5rem;
+    top: 15rem;
+    background: rgba(196, 196, 196, 0.47);
+    border-radius: 0rem 5rem 5rem 0rem;
+    
+}
+
+
+/*lottiefile box*/
+.rectangle4 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 14rem;
+    top: 33rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 47.5rem;
+    top: 33rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+.rectangle6 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 81rem;
+    top: 33rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 14rem;
+    top: 63rem;
+    background: white;
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 47.5rem;
+    top: 63rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+.rectangle9 {
+    position: absolute;
+    width: 26rem;
+    height: 26rem;
+    left: 81rem;
+    top: 63rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 5rem;
+    outline-style: solid;
+}
+
+/*Anim & Caption*/
+#animContainer1 {
+    position: absolute;
+    top: 31.5rem;
+    left: 15rem;
+    height: 25rem;
+}
+
+.caption1 {
+    position: absolute;
+    top: 52.5rem;
+    left: 22.5rem;
+    font-size: 2.5rem;
+}
+
+#animContainer2 {
+    position: absolute;
+    top: 31.5rem;
+    left: 48.5rem;
+    height: 25rem;
+}
+
+.caption2 {
+    position: absolute;
+    top: 52.5rem;
+    left: 54rem;
+    font-size: 2.5rem;
+}
+
+#animContainer3 {
+    position: absolute;
+    top: 32rem;
+    left: 83.5rem;
+    height: 22rem;
+}
+
+.caption3 {
+    position: absolute;
+    top: 52.5rem;
+    left: 89.5rem;
+    font-size: 2.5rem;
+}
+
+#animContainer4 {
+    position: absolute;
+    top: 65rem;
+    left: 16.3rem;
+    height: 22rem;
+}
+
+.caption4 {
+    position:absolute;
+    top: 82.5rem;
+    left: 20.5rem;
+    font-size: 2.5rem;
+}
+
+#animContainer5 {
+    position: absolute;
+    top: 66rem;
+    left: 49rem;
+    height: 22rem;
+}
+
+.caption5 {
+    position:absolute;
+    top: 83rem;
+    left: 50.5rem;
+    font-size: 2.2rem;
+}
+
+#animContainer6 {
+    position: absolute;
+    top: 65rem;
+    left: 83rem;
+    height: 22rem;
+}
+
+.caption6 {
+    position:absolute;
+    top: 82.5rem;
+    left: 90rem;
+    font-size: 2.5rem;
+}
+
+p {
+    position: absolute;
+    top: 12rem;
+    left: 13.2rem;
+    font-size: 6rem;
+}

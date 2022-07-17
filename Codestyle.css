@@ -1,0 +1,523 @@
+html {
+    font-size: 62.5%;
+
+}
+
+/*media Query*/
+@media (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+}
+
+
+/*Header Section*/
+
+.home {
+    position: fixed;
+    width: 20rem;
+    height: 0rem;
+    right: 0rem;
+    top: 35rem;
+    
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 6rem;
+    line-height: 0rem;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    transform: rotate(90deg);
+}
+
+.pagelink1 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 13.2rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 20rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.pagelink2 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 37.9rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+
+}
+
+.pagelink3 {  
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 58.4rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.pagelink4 {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    left: 75.9rem;
+    top: 5.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+
+/* Main Code */
+
+.rectangle1 {
+    position: absolute;
+    width: 107rem;
+    height: 37.6rem;
+    left: 0rem;
+    top: 22.7rem;
+    background: rgba(196, 196, 196, 0.47);
+    border-radius: 0rem 5rem 5rem 0rem; 
+    
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 107rem;
+    height: 90.4rem;
+    left: 0rem;
+    top: 76.4rem;
+    background: rgba(102, 205, 170, 0.35);
+    border-radius: 0rem 5rem 0rem 0rem;
+}
+
+.tag1 {
+    position: absolute;
+    width: 29.2rem;
+    height: 14.9rem;
+    left: 13.2rem;
+    top: 27.8rem;
+    
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 7.6rem;
+    color: #000000;
+}
+
+
+
+.text1{
+    position: absolute;
+    width: 100%;
+    height: 3.8rem;
+    left: 13.2rem;
+    top: 45.5rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.line0 {
+    position: absolute;
+    width: 64.6rem;
+    height: 4.5rem;
+    left: 13.2rem;
+    top: 83.7rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 50rem;
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+    color: #2739E1;
+}
+
+#einpharma {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight:30rem;
+}
+
+h2 {
+    position: absolute;
+    width: 78.2rem;
+    height: 16rem;
+    left: 13.2rem;
+    top: 90rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 8rem;
+    color: #000000;
+}
+
+h4 {
+    position: absolute;
+    width: auto;
+    height: 3.4rem;
+    left: 13.2rem;
+    top: 106.5rem;
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: 40rem;
+    font-size: 5rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.1em;
+    color: #2739E1;
+}
+
+.text2 {
+    position: absolute;
+    width: 45.1rem;
+    height: 27.5rem;
+    left: 13.2rem;
+    top: 117.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    letter-spacing: 0.1em;
+    color: #000000;
+
+}
+
+.line1 {
+    position: absolute;
+width: auto;
+height: 4.5rem;
+left: 13.2rem;
+top: 147.1rem;
+
+font-family: 'Caveat', cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 5rem;
+line-height: 4.5rem;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+.text3 {
+    position: absolute;
+width: auto;
+height: 4.5rem;
+left: 13.2rem;
+top: 170rem;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 50rem;
+font-size: 3.6rem;
+line-height: 4.5rem;
+
+color: #2739E1;
+
+}
+
+.tag2 {
+    position: absolute;
+width: auto;
+height: 8rem;
+left: 13.2rem;
+top: 184rem;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 5rem;
+line-height: 8rem;
+
+color: black;
+
+}
+
+.text4 {
+    position: absolute;
+    width: 46.9rem;
+    height: 8rem;
+    left: 13.2rem;
+    top: 175rem;
+    
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: 60rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    
+    color: #000000;
+}
+
+.tag3 {
+    position: absolute;
+    width: 33.9rem;
+    height: 12.6rem;
+    left: 67.6rem;
+    top: 206rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 6.3rem;
+    text-align: right;
+    color: #000000;
+}
+
+.text5 {
+    position: absolute;
+    width: 39.1rem;
+    height: 11.4rem;
+    left: 62.4rem;
+    top: 228.5rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.line2 {
+    position: absolute;
+    width: 30.4rem;
+    height: 4.5rem;
+    left: 13.2rem;
+    top: 205.5rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: black;
+}
+
+.tag4 {
+    position: absolute;
+    width: 38.8rem;
+    height: 12.6rem;
+    left: 13.2rem;
+    top: 246rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 6.3rem;
+    color: black;
+}
+
+.text6 {
+    position: absolute;
+    width: 41.5rem;
+    height: 19rem;
+    left: 62.4rem;
+    top: 259.7rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 30rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.rectangle3 {
+    position: absolute;
+width: 107rem;
+height: 33.3rem;
+left: 0rem;
+top: 168.3rem;
+
+background: rgba(138, 43, 226, 0.36);
+}
+
+.rectangle4 {
+    position: absolute;
+width: 55.2rem;
+height: 37.4rem;
+left: 0rem;
+top: 203.1rem;
+
+background: #B9DBEA;
+}
+
+.rectangle5 {
+    position: absolute;
+width: 50.3rem;
+height: 51.8rem;
+left: 56.7rem;
+top: 203.1rem;
+
+background: rgba(238, 255, 85, 0.34);
+}
+
+.rectangle6 {
+    position: absolute;
+width: 55.2rem;
+height: 64.5rem;
+left: 0rem;
+top: 242rem;
+
+background: rgba(255, 127, 80, 0.45);
+}
+
+.rectangle7 {
+    position: absolute;
+width: 50.3rem;
+height: 50.1rem;
+left: 56.7rem;
+top: 256.4rem;
+
+background: rgba(0, 87, 255, 0.5);
+}
+
+.rectangle8 {
+    position: fixed;
+    width: 107rem;
+    height: 13.9rem;
+    left: 0rem;
+    top: 0rem;
+    background: #DFE3FF;
+    border-radius: 0rem 0rem 5rem 0rem;
+    position: fixed;
+}
+
+.rectangle9 {
+    position: absolute;
+    width: 22.8rem;
+    height: 79rem;
+    right: 0rem;
+    top: 0rem;
+    position: fixed;
+    background: #DFE3FF;
+}
+
+.rectangle10 {
+    position: absolute;
+    width: 107rem;
+    height: 32.1rem;
+    left: 0rem;
+    top: 320.4rem;
+
+    background: rgba(196, 196, 196, 0.47);
+    border-radius: 0rem 5rem 0rem 0rem;
+}
+
+p {
+    position: absolute;
+    width: 21.2rem;
+    height: 3rem;
+    left: 13.2rem;
+    top: 350.9rem;
+    font-size: 2rem;
+}
+
+span {
+    content: "\2764";
+    color: red;
+}
+
+#alright {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #000000;
+}
+
+#animContainer {
+    position: absolute;
+    top: 25rem;
+    height: 40rem;
+    left: 20rem;
+    transform: rotate(180deg);
+    opacity: 1;
+}
+
+#animContainer1 {
+    position: absolute;
+    top: 165rem;
+    height: 40rem;
+    left: 73rem;
+}
+
+#animContainer2 {
+    position: absolute;
+    top: 212rem;
+    height: 40rem;
+    left: 41rem;
+
+}
+
+#animContainer3 {
+    position: absolute;
+    top: 213rem;
+    height: 27rem;
+    left: 13.2rem;
+}
+
+#animContainer4 {
+    position: absolute;
+    top: 270rem;
+    height: 28rem;
+    left: 13.2rem;
+}
+
+#animContainer5 {
+    position: absolute;
+    top: 280rem;
+    height: 28rem;
+    left: 75rem;
+    
+}
+
+#animContainer6 {
+    position: absolute;
+    top: 110rem;
+    height: 35rem;
+    left: 59rem;
+}
